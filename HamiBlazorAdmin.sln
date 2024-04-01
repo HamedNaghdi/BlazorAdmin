@@ -3,12 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hami.BlazorAdmin", "src\Hami.BlazorAdmin\Hami.BlazorAdmin\Hami.BlazorAdmin.csproj", "{B8A0901B-3EBE-4DAB-9D99-4C8B73B2128B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hami.BlazorAdmin.Client", "src\Hami.BlazorAdmin\Hami.BlazorAdmin.Client\Hami.BlazorAdmin.Client.csproj", "{71743860-97F0-4660-A787-A882C5C6754B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7EF6A88-AFE0-438D-BC9C-D3AA1BA0F3EE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED8D62C1-EB42-4F4C-9A65-935F5D030A92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A0901B-3EBE-4DAB-9D99-4C8B73B2128B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A0901B-3EBE-4DAB-9D99-4C8B73B2128B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A0901B-3EBE-4DAB-9D99-4C8B73B2128B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A0901B-3EBE-4DAB-9D99-4C8B73B2128B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71743860-97F0-4660-A787-A882C5C6754B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71743860-97F0-4660-A787-A882C5C6754B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71743860-97F0-4660-A787-A882C5C6754B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71743860-97F0-4660-A787-A882C5C6754B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8A0901B-3EBE-4DAB-9D99-4C8B73B2128B} = {ED8D62C1-EB42-4F4C-9A65-935F5D030A92}
+		{71743860-97F0-4660-A787-A882C5C6754B} = {ED8D62C1-EB42-4F4C-9A65-935F5D030A92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEF6D8CA-E463-47A4-BC07-3A2F75EFE869}
 	EndGlobalSection
 EndGlobal
